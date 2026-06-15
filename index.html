@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Centro Elétrico | Soluções em Material Elétrico</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#0056b3;
+    --secondary:#0ea5e9;
+    --accent:#ffb800;
+    --dark:#0f172a;
+    --light:#f8fafc;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#fff;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:linear-gradient(135deg,#003b7a,var(--primary));
+    color:white;
+}
+
+.topbar{
+    background:var(--dark);
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 0;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:800;
+}
+
+.hero{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+    padding:100px 0;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:var(--accent);
+    color:#000;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:700;
+}
+
+.hero img{
+    width:100%;
+    border-radius:15px;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    color:var(--primary);
+    font-size:42px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.info{
+    background:var(--light);
+}
+
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.box{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.box h3{
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.contact{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:25px;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#001b38;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.badge{
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:8px 18px;
+    border-radius:50px;
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+Mais de 17 anos fornecendo soluções em materiais elétricos e tecnologia
+</div>
+
+<header>
+
+<div class="container">
+
+<div class="navbar">
+<div class="logo">CENTRO ELÉTRICO</div>
+</div>
+
+<div class="hero">
+
+<div>
+
+<span class="badge">
+Distribuidor Atacadista e Varejista
+</span>
+
+<h1>Soluções completas em material elétrico para sua empresa e obra</h1>
+
+<p>
+Atendimento especializado para construtoras, indústrias,
+instaladores, revendedores e consumidores finais com uma ampla
+linha de materiais elétricos, informática e construção.
+</p>
+
+<a href="#contato" class="btn">
+Solicitar Cotação
+</a>
+
+</div>
+
+<div>
+
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1400&q=80"
+alt="Material Elétrico">
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>Principais Segmentos</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Material Elétrico</h3>
+<p>Cabos, disjuntores, tomadas, iluminação e acessórios.</p>
+</div>
+
+<div class="card">
+<h3>Informática</h3>
+<p>Equipamentos, periféricos e suprimentos corporativos.</p>
+</div>
+
+<div class="card">
+<h3>Ferragens e Ferramentas</h3>
+<p>Produtos para manutenção, construção e instalação.</p>
+</div>
+
+<div class="card">
+<h3>Materiais de Construção</h3>
+<p>Soluções para obras residenciais, comerciais e industriais.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="info">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Informações Empresariais</h2>
+</div>
+
+<div class="info-grid">
+
+<div class="box">
+
+<h3>Dados da Empresa</h3>
+
+<p><strong>Razão Social:</strong> J Gonçalves dos Santos Filho & Cia LTDA</p>
+<p><strong>Nome Fantasia:</strong> Centro Elétrico</p>
+<p><strong>CNPJ:</strong> 07.049.976/0004-40</p>
+<p><strong>Data de Abertura:</strong> 30/09/2008</p>
+<p><strong>Situação:</strong> Ativa</p>
+<p><strong>Tipo:</strong> Filial</p>
+
+</div>
+
+<div class="box">
+
+<h3>Informações Jurídicas</h3>
+
+<p><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</p>
+<p><strong>Capital Social:</strong> R$ 6.000.000,00</p>
+<p><strong>Porte:</strong> Sem Enquadramento</p>
+<p><strong>MEI:</strong> Não</p>
+<p><strong>Simples Nacional:</strong> Não</p>
+
+</div>
+
+<div class="box">
+
+<h3>Atividades Econômicas</h3>
+
+<p>Comércio atacadista de material elétrico.</p>
+<p>Comércio varejista de material elétrico.</p>
+<p>Equipamentos e suprimentos de informática.</p>
+<p>Ferragens e ferramentas.</p>
+<p>Materiais de construção.</p>
+
+</div>
+
+<div class="box">
+
+<h3>Administração</h3>
+
+<p>José Gonçalves dos Santos Neto</p>
+<p>Silvana Maria Cunha dos Santos Rodrigues</p>
+<p>Tânia Regina Cunha dos Santos</p>
+<p>Sócios Administradores</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contato" class="contact">
+
+<div class="container">
+
+<h2>Contato</h2>
+
+<p><strong>E-mail:</strong> boanergesaires@hotmail.com</p>
+
+<p><strong>Telefone:</strong> (98) 2106-6464</p>
+<p><strong>Telefone:</strong> (98) 2107-6464</p>
+
+<br>
+
+<p>
+<strong>Endereço:</strong><br>
+Avenida Guajajaras, 416<br>
+Tirirical<br>
+São Luís - MA<br>
+CEP 65055-285
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p><strong>Centro Elétrico</strong></p>
+
+<p>J Gonçalves dos Santos Filho & Cia LTDA</p>
+
+<p>CNPJ: 07.049.976/0004-40</p>
+
+<p>
+Avenida Guajajaras, 416 • Tirirical<br>
+São Luís • Maranhão • CEP 65055-285
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Centro Elétrico. Todos os direitos reservados.
+</p>
+
+</footer>
+
+</body>
+</html>
+```
